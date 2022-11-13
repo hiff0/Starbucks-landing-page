@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:wght@300&family=Poppins:wght@100;200;300;400;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Starbucks Landing Page</title>
+    <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="./image/logo.png" alt="logo" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee<br>It's <span>Starbucks</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos adipisci delectus nesciunt
+                    accusamus, eius officiis quibusdam hic modi vero ea iusto error similique consectetur aspernatur
+                    unde, eveniet sequi maxime libero.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="imgBox">
+                <img src="./image/img1.png" alt="" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./image/thumb1.png" alt="thumb1"
+                    onclick="imgSlider('./image/img1.png'); changeCircleColor('#017143')"></li>
+            <li><img src="./image/thumb2.png" alt="thumb2"
+                    onclick="imgSlider('./image/img2.png'); changeCircleColor('#eb7495')"></li>
+            <li><img src="./image/thumb3.png" alt="thumb3"
+                    onclick="imgSlider('./image/img3.png'); changeCircleColor('#d752b1')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="https://github.com/hiff0" target="_blank"><img src="./image/github.png" alt="github"></a></li>
+            <li><a href="https://t.me/Vladhiff" target="_blank"><img src="./image/telegram.png" alt="telegram"></a></li>
+            <li><a href="https://instagram.com/vlad_petrov3?igshid=ZDdkNTZiNTM=
+                " target="_blank"><img src="./image/instagram.png" alt="instagram"></a></li>
+        </ul>
+    </section>
+</body>
+
+</html>
